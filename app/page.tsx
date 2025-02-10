@@ -13,7 +13,7 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         className="text-4xl sm:text-6xl font-bold text-center mb-8 cyberpunk-text-glow gradient-text"
       >
-        Welcome to BASMAN Studio's
+        Welcome to BASMAN Studios
       </motion.h1>
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
@@ -22,8 +22,8 @@ export default function Home() {
         className="relative w-full max-w-2xl aspect-video mb-12"
       >
         <Image
-          src="/Basman2.png?height=720&width=1280"
-          alt="Animated example of BASMAN STUDIO'S work"
+          src="/Basman_landingpage.png?height=720&width=1280"
+          alt="Animated example of BASMAN STUDIOS work"
           layout="fill"
           objectFit="cover"
           className="rounded-lg shadow-2xl cyberpunk-glow"
